@@ -16,9 +16,9 @@ export default function Landing() {
             </span>
           </h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-gray-50 sm:text-xl md:mt-5 md:max-w-3xl">
-            Delivering quality and consistent Personal Protective Equipment
-            Industry leading approach embracing best practices on a global level
-            in selection, training and fit validation of PPE equipment
+            Providing high-quality, consistent Personal Protective Equipment by
+            implementing best global practices in PPE manufacturing, supplying,
+            and training.
           </p>
           {/* <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
             <div className="rounded-md shadow">

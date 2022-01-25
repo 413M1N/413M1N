@@ -41,7 +41,7 @@ export default function Expertise() {
           </h2>
           <p className="mt-3 text-3xl font-extrabold text-white">
             We offer quality{" "}
-            <span className="underline decoration-teal-600 underline-offset-1 decoration-wavy font-semibold text-teal-600">
+            <span className="underline decoration-teal-600 underline-offset-1 decoration-wavy text-teal-600 font-['Mochiy_Pop_P_One']">
               {" "}
               printing{" "}
             </span>{" "}
@@ -50,19 +50,19 @@ export default function Expertise() {
           <section className="mt-5 text-lg text-gray-300">
             <ul className="list-disc list-inside space-y-4">
               <li>
-                <span className="text-teal-600 font-semibold">
+                <span className="text-teal-500 font-semibold">
                   Heat Press:{" "}
                 </span>
                 Heat and pressure are used to imprint a design.
               </li>
               <li>
-                <span className="text-teal-600 font-semibold">
+                <span className="text-teal-500 font-semibold">
                   Embroidery:{" "}
                 </span>
                 Create patterns on textiles.
               </li>
               <li>
-                <span className="text-teal-600 font-semibold">
+                <span className="text-teal-500 font-semibold">
                   Screen Printing:{" "}
                 </span>
                 Print on fabrics ranging from cotton to polyester.

@@ -81,7 +81,7 @@ export default function Services() {
           <h2 className="text-base text-teal-800 font-semibold tracking-wide uppercase">
             WHO ARE WE
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl font-['Mochiy_Pop_P_One']">
+          <p className="mt-2 text-3xl leading-8  tracking-tight text-gray-900 sm:text-4xl font-['Mochiy_Pop_P_One']">
             A leading apparel provider in Africa
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
@@ -90,7 +90,7 @@ export default function Services() {
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
             We are commited to raising of apparel standards & we provide{" "}
-            <span className="underline decoration-teal-800 underline-offset-2 decoration-wavy font-semibold text-teal-800">
+            <span className="underline decoration-teal-600 underline-offset-2 decoration-wavy text-teal-600 font-['Mochiy_Pop_P_One']">
               PPE
             </span>{" "}
             products and services in the following categories:

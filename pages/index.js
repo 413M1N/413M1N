@@ -1,4 +1,5 @@
 import Divider from "../components/Divider";
+import CallToAction from "../components/Home/CallToAction";
 import Clients from "../components/Home/Clients";
 import Expertise from "../components/Home/Expertise";
 import Gallery from "../components/Home/Gallery";
@@ -14,6 +15,7 @@ export default function Home() {
       <Clients />
       <Expertise />
       <Gallery />
+      <CallToAction />
     </div>
   );
 }

@@ -57,17 +57,17 @@ export default function Clients() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div>
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl ">
               Suppliers to a{" "}
-              <span className="underline decoration-teal-800 underline-offset-1 decoration-wavy font-semibold text-teal-800">
+              <span className="underline decoration-teal-600 underline-offset-2 decoration-wavy font-normal text-teal-600 font-['Mochiy_Pop_P_One']">
                 {" "}
                 wide range{" "}
               </span>
               of well known organizations
             </h2>
             <section className="mt-3 max-w-3xl text-lg text-gray-500">
-              We have worked to supply PPE to clients from across all industries
-              from:
+              We have worked to supply PPE and branding to clients from across
+              all industries from:
               <ul className="list-disc list-inside	">
                 <li>Multinationals</li>
                 <li>Government</li>
