@@ -36,7 +36,7 @@ const Inner = styled.div`
 const GlobalStyles = createGlobalStyle`
   html {
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Manrope', sans-serif;
   }
   body{
     background-image: linear-gradient(-169deg, rgb(248, 246, 243) 14%, rgb(255, 255, 255) 59%);

@@ -64,9 +64,9 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Popover className="relative bg-white">
+    <Popover className="relative bg-teal-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+        <div className="flex justify-between items-center border-b-2 border-teal-100 py-5 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="#">
               <span className="sr-only">Safe Apparel</span>
@@ -80,7 +80,7 @@ export default function Header() {
             </a>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none ">
+            <Popover.Button className="bg-teal-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-teal-100 focus:outline-none ">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
@@ -99,7 +99,7 @@ export default function Header() {
                   <Popover.Button
                     className={classNames(
                       open ? "text-gray-900" : "text-gray-700",
-                      "group bg-white rounded-md inline-flex items-center text-base font-semibold hover:text-teal-700"
+                      "group bg-teal-50 rounded-md inline-flex items-center text-base font-semibold hover:text-teal-700"
                     )}
                   >
                     <span>Products</span>
