@@ -55,7 +55,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-teal-100 py-5 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
+            <a href="./header.js">
               <span className="sr-only">Safe Apparel</span>
               <Image
                 className="h-10 w-auto sm:h-16 rounded-full"
@@ -165,14 +165,13 @@ export default function Header() {
             </a>
 
             <a
-              href="#"
+              href="./components/call.js"
               className="text-base font-semibold text-gray-700 hover:text-teal-700"
             >
               Contact Us
             </a>
-
             <a
-              href="#"
+              href="https://www.saraiafrique.com"
               className="text-base font-semibold text-gray-700 hover:text-teal-700"
             >
               Fashion House
@@ -262,7 +261,12 @@ export default function Header() {
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Fashion House
+                  <a
+                  href="https://www.saraiafrique.com"
+                  className="text-base font-medium text-gray-900 hover:text-gray-700"
+                ></a>
                 </a>
+
               </div>
             </div>
           </div>

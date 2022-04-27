@@ -12,7 +12,7 @@ export default function CallToAction() {
             <span className="inline-block font-light bg-gray-800 py-1 px-2 text-teal-400  font-['Mochiy_Pop_P_One']">
               Safe Apparels
             </span>
-            .
+
           </span>
         </h2>
         <p className="mt-4 text-lg leading-6 text-white">

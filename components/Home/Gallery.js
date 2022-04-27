@@ -7,24 +7,24 @@ const images = [
     thumbnail: "/workshop/workshop-1.jpeg",
   },
   {
-    original: "/workshop/workshop-1.jpeg",
-    thumbnail: "/workshop/workshop-1.jpeg",
+    original: "/workshop/workshop-2.jpg",
+    thumbnail: "/workshop/workshop-2.jpg",
   },
   {
-    original: "/workshop/workshop-1.jpeg",
-    thumbnail: "/workshop/workshop-1.jpeg",
+    original: "/workshop/workshop-3.jpg",
+    thumbnail: "/workshop/workshop-3.jpg",
   },
   {
-    original: "/workshop/workshop-1.jpeg",
-    thumbnail: "/workshop/workshop-1.jpeg",
+    original: "/workshop/workshop-4.jpg",
+    thumbnail: "/workshop/workshop-4.jpg",
   },
   {
-    original: "/workshop/workshop-1.jpeg",
-    thumbnail: "/workshop/workshop-1.jpeg",
+    original: "/workshop/workshop-5.jpg",
+    thumbnail: "/workshop/workshop-5.jpg",
   },
   {
-    original: "/workshop/workshop-1.jpeg",
-    thumbnail: "/workshop/workshop-1.jpeg",
+    original: "/workshop/workshop-6.jpg",
+    thumbnail: "/workshop/workshop-6.jpg",
   },
   {
     original: "/workshop/workshop-1.jpeg",
