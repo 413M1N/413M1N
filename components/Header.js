@@ -251,7 +251,7 @@ export default function Header() {
                   Blog
                 </a>
                 <a
-                  href="#"
+                  href="../blog.js"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Contact Us
