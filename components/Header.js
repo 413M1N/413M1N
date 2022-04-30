@@ -245,19 +245,19 @@ export default function Header() {
                 </a>
 
                 <a
-                  href="../header.js"
+                  href="../header"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Blog
                 </a>
                 <a
-                  href="../blog.js"
+                  href="../blog"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Contact Us
                 </a>
                 <a
-                  href="./call.js"
+                  href="./call"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Fashion House
