@@ -254,7 +254,7 @@ export default function Header() {
                   href="./blog"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
-                  Contact
+                  Contact Us
                 </a>
                 <a
                   href="./Contact"
