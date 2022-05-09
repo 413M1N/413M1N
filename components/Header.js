@@ -158,7 +158,7 @@ export default function Header() {
               )}
             </Popover>
             <a
-              href="#"
+              href="./Blog"
               className="text-base font-semibold text-gray-700 hover:text-teal-700"
             >
               Blog
