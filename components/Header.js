@@ -165,7 +165,7 @@ export default function Header() {
             </a>
 
             <a
-              href="./components/call.js"
+              href="./Contact"
               className="text-base font-semibold text-gray-700 hover:text-teal-700"
             >
               Contact Us
