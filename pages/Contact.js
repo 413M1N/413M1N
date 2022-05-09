@@ -1,4 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
+import Image from "next/image";
+
 export default function Contact () {
   return (
     <div className="bg-turqoise">
