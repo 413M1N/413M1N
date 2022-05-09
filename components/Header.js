@@ -245,16 +245,16 @@ export default function Header() {
                 </a>
 
                 <a
-                  href="../header"
+                  href="./header"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Blog
                 </a>
                 <a
-                  href="../blog"
+                  href="./blog"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
-                  Contact Us
+                  Contact
                 </a>
                 <a
                   href="./Contact"
