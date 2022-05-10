@@ -6,10 +6,10 @@ export default function Landing() {
       <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
         <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
           <h1 className="text-3xl tracking-tight mb-4 font-medium sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
-            <span className="inline-block xl:inline text-yellow-600  font-['Mochiy_Pop_P_One']">
-              SAFE APPARELS
+            <span className="inline-block xl:inline text-yellow-600  font-['Mochiy_Pop_P_One']">      SAFE APPARELS
             </span>{" "}
           </h1>
+
           <h1 className="text-xl tracking-tight font-normal text-gray-900 sm:text-2xl md:text-3xl lg:text-2xl xl:text-3xl mt-2">
             <span className=" inline-block text-white ">
               Your safety is our priority
