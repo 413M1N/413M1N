@@ -14,7 +14,7 @@
   }
   ```
 */
-export default function Contact () {
+export default function Respiratory () {
 const products = [
   {
     id: 1,
