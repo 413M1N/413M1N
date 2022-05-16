@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /*
   This example requires Tailwind CSS v2.0+
 
@@ -21,8 +22,7 @@ export default function Blog () {
         <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
           <img className="h-30 w-full object-cover lg:absolute lg:h-50%"
             src="/blog/safetyy.jpg"
-            alt=""
-          />
+            alt="construction site safety ppe" />
 
         </div>
       </div>
