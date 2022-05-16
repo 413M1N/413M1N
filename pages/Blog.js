@@ -14,7 +14,7 @@
   }
   ```
 */
-export default function Example() {
+export default function Blog () {
   return (
     <div className="relative bg-white">
       <div className="lg:absolute lg:inset-0">
