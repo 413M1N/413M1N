@@ -9,7 +9,7 @@ const solutions = [
   {
     name: "Respiratory Protection",
     description: "Protect against the inhalation of hazardous substances.",
-    href: "#",
+    href: "./Respiratory",
     icon: "medical-mask.png",
   },
   {
