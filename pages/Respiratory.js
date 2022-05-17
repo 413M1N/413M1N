@@ -74,14 +74,42 @@ const products = [
     imageSrc: 'products/filterpads.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
+   {
+    id: 9,
+    name: '3M Full face mask',
+    href: '#',
+    imageSrc: 'products/3mfullface.jpg',
+    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+  },
+   {
+    id: 10,
+    name: 'NP 305 Mask',
+    href: '#',
+    imageSrc: 'products/NPMASK.jpg',
+    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+  },
+   {
+    id: 11,
+    name: 'Mono Mask',
+    href: '#',
+    imageSrc: 'products/monomask.jpg',
+    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+  },
+   {
+    id: 12,
+    name: 'NP 306 Mask',
+    href: '#',
+    imageSrc: 'products/NP306mask.jpg',
+    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+  },
   // More products...
 ]
 
 export default function Respiratory() {
   return (
-    <div className="bg-white">
+    <div className="bg-teal-800">
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-        <h2 className="sr-only">Products</h2>
+        <h2 className="sr-only">RESPIRATORY</h2>
 
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
@@ -93,8 +121,8 @@ export default function Respiratory() {
                   className="w-full h-full object-center object-cover group-hover:opacity-75"
                 />
               </div>
-              <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
-              <p className="mt-1 text-lg font-medium text-gray-900">{product.price}</p>
+              <h3 className="mt-4 text-sm text-white-1000">{product.name}</h3>
+              <p className="mt-1 text-lg font-medium text-white-900">{product.price}</p>
             </a>
           ))}
         </div>
