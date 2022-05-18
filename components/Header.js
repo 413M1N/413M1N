@@ -15,13 +15,13 @@ const solutions = [
   {
     name: "Hand Protection",
     description: "Protect one's hands from any sort of injury at work",
-    href: "#",
+    href: "./Hand",
     icon: "gloves.png",
   },
   {
     name: "Footwear",
     description: "PPE for feet to reduce the risk of workplace hazards.",
-    href: "#",
+    href: "./Footwear",
     icon: "boots.png",
   },
   {
