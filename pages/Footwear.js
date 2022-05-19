@@ -20,86 +20,128 @@
 const products = [
   {
     id: 1,
-    name: 'Ladies safety shoe',
+    name: 'Ladies Safety Shoe',
     href: '#',
-    imageSrc: 'products/lad.jpg',
-    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+    imageSrc: 'products/sporty.jpg',
+    imageAlt: '.',
   },
   {
     id: 2,
-    name: 'Ladies safety shoe ROP/SBP',
+    name: 'Ladies Safety Shoe ROP/SBP',
     href: '#',
-    imageSrc: 'products/withoutlaces.png',
+    imageSrc: 'products/withoutlace.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
   },
   {
     id: 3,
-    name: 'Mens safety shoe',
+    name: 'Ladies/Men Safety Shoe',
     href: '#',
-    imageSrc: 'products/mensafety.png',
+    imageSrc: 'products/ladiesexecutive.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
   {
     id: 4,
-    name: '3M 8210',
+    name: 'Executive Men Shoes',
     href: '#',
-    imageSrc: 'products/3m8210.jpg',
+    imageSrc: 'products/menwithoutlace.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 5,
-    name: 'Disposable Mask',
+    name: 'Executive non-safety Shoe',
     href: '#',
-    imageSrc: 'products/disposable.jpg',
+    imageSrc: 'products/nonsafety.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 6,
-    name: '3M 9211',
+    name: 'Mens Safety Shoe ',
     href: '#',
-    imageSrc: 'products/3m9211.jpg',
+    imageSrc: 'products/vaultexshoe.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 7,
-    name: 'KN95 with valve',
+    name: 'Mens Safety Boot',
     href: '#',
-    imageSrc: 'products/kn95valve.jpg',
+    imageSrc: 'products/vaultexboot.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 8,
-    name: '3M 5N11 Filter pads',
+    name: 'MTS Safety Boot',
     href: '#',
-    imageSrc: 'products/filterpads.jpg',
+    imageSrc: 'products/mts-boot.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
    {
     id: 9,
-    name: '3M Full face mask',
+    name: 'Security Jogger Boot',
     href: '#',
-    imageSrc: 'products/3mfullface.jpg',
+    imageSrc: 'products/securityjogger.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
    {
     id: 10,
-    name: 'NP 305 Mask',
+    name: 'MTS Safety Shoe',
     href: '#',
-    imageSrc: 'products/NPMASK.jpg',
+    imageSrc: 'products/mts-shoe.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
    {
     id: 11,
-    name: 'Mono Mask',
+    name: 'Neilson Safety Boot',
     href: '#',
-    imageSrc: 'products/monomask.jpg',
+    imageSrc: 'products/neilson.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
    {
     id: 12,
-    name: 'NP 306 Mask',
+    name: 'Nurses Crocs',
     href: '#',
-    imageSrc: 'products/NP306mask.jpg',
+    imageSrc: 'products/crocs.jpg',
+    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+  },
+  {
+    id: 13,
+    name: 'Egoli Gumboots',
+    href: '#',
+    imageSrc: 'products/egoligum.jpg',
+    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+  },
+  {
+    id: 14,
+    name: 'Heavy duty Gumboots',
+    href: '#',
+    imageSrc: 'products/heavydutygum.jpg',
+    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+  },
+  {
+    id: 15,
+    name: 'Light duty Gumboots',
+    href: '#',
+    imageSrc: 'products/lightdutygum.jpg',
+    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+  },
+   {
+    id: 16,
+    name: 'CnP Lightduty Gumboots',
+    href: '#',
+    imageSrc: 'products/cnplight.jpg',
+    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+  },
+   {
+    id: 17,
+    name: 'PVC Gumboots',
+    href: '#',
+    imageSrc: 'products/pvcgum.jpg',
+    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+  },
+   {
+    id: 18,
+    name: 'Safety Gumboots',
+    href: '#',
+    imageSrc: 'products/safetygum.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   // More products...
@@ -107,9 +149,14 @@ const products = [
 
 export default function Footwear () {
   return (
-    <div className="bg-teal-800">
-      <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-        <h2 className="sr-only">Footwear </h2>
+     <div className="bg-teal-800">
+     <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-centre">
+          <h1 className="text-3xl tracking-tight mb-4 font-medium sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
+
+         <p className="mt-2 text-centre text-3xl leading-8  tracking-tight text-green sm:text-4xl font-['Mochiy_Pop_P_One']">
+            FOOTWEAR
+          </p>
+          </h1>
 
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
           {products.map((product) => (
@@ -121,8 +168,8 @@ export default function Footwear () {
                   className="w-full h-full object-center object-cover group-hover:opacity-75"
                 />
               </div>
-              <h3 className="mt-4 text-sm text-white-1000">{product.name}</h3>
-              <p className="mt-1 text-lg font-medium text-white-900">{product.price}</p>
+              <h3 className="mt-4 text-sm text-white-100 font-['Mochiy_Pop_P_One']">{product.name}</h3>
+              <p className="mt-1 text-lg  text-white-900">{product.price}</p>
             </a>
           ))}
         </div>
