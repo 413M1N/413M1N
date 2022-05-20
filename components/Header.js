@@ -27,7 +27,7 @@ const solutions = [
   {
     name: "Eye Protection",
     description: "Face and eye protection to reduce the risk of injuries.",
-    href: "#",
+    href: "./Eyeppe",
     icon: "eyewear.png",
   },
   {
@@ -43,7 +43,7 @@ const solutions = [
     icon: "accessories.png",
   },
 ];
-const callsToAction = [{ name: "Contact Sales", href: "#", icon: PhoneIcon }];
+const callsToAction = [{ name: "Contact Sales", href: "./contact.js", icon: PhoneIcon }];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -157,6 +157,12 @@ export default function Header() {
                 </>
               )}
             </Popover>
+             <a
+              href="#"
+              className="text-base font-semibold text-gray-700 hover:text-teal-700"
+            >
+              Branding & Stitching
+            </a>
             <a
               href="./Blog"
               className="text-base font-semibold text-gray-700 hover:text-teal-700"

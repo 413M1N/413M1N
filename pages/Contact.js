@@ -3,9 +3,18 @@ import Image from "next/image";
 
 export default function Contact () {
   return (
+
     <div className="bg-teal-800">
+      <Image
+                className="h-full w-full object-fit opacity-10 xl:absolute xl:inset-0"
+                src="/banner/con.jpg"
+                alt="People working on laptops"
+                layout="fill"
+                objectFit="contain"
+              />
      <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-centre">
-          <h1 className="text-3xl tracking-tight mb-4 font-medium sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
+
+   <h1 className="text-3xl tracking-tight mb-4 font-medium sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
 
          <p className="mt-2 text-centre text-3xl leading-8  tracking-tight text-gray-900 sm:text-4xl font-['Mochiy_Pop_P_One']">
             CONTACT INFORMATION
@@ -14,8 +23,10 @@ export default function Contact () {
         <p className="mt-4 text-lg leading-6 text-white">
           Don&apos;t hesitate to give us a call or send us an email.
         </p>
+
+
         <br></br>
-        <div className="mt-35 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 text-center" >
+        <div className="mt-35 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 text-center" >
           <div>
                <span className="block text-gray-900 sm:text-2xl font-['Mochiy_Pop_P_One']">LOCATION</span>
               <p className="mt-4 text-lg leading-6 text-white">
