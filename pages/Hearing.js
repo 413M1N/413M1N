@@ -20,72 +20,43 @@
 const products = [
   {
     id: 1,
-    name: 'Basic Plus goggles',
+    name: 'Imperial Earmuff',
     href: '#',
-    imageSrc: 'products/basicplus.jpg',
-    imageAlt: '.',
+    imageSrc: 'products/earmuff.jpg',
+    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
   {
     id: 2,
-    name: 'Empiral goggles',
+    name: 'Reusable Earplugs',
     href: '#',
-    imageSrc: 'products/empiral.jpg',
+    imageSrc: 'products/earplugs.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
   },
   {
     id: 3,
-    name: 'UD 71 Clear goggles',
+    name: 'Disposable Earplugs',
     href: '#',
-    imageSrc: 'products/ud71clear.jpg',
+    imageSrc: 'products/disposable.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
   {
     id: 4,
-    name: 'UD 71 Clear goggle',
+    name: 'Attachable Earmuff',
     href: '#',
-    imageSrc: 'products/ud71dark.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-  },
-  {
-    id: 5,
-    name: 'UD 71 Yellow',
-    href: '#',
-    imageSrc: 'products/ud71yellow.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-  },
-  {
-    id: 6,
-    name: 'UD 131 Clear',
-    href: '#',
-    imageSrc: 'products/ud131clear.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-  },
-  {
-    id: 7,
-    name: 'UD 131 Dark',
-    href: '#',
-    imageSrc: 'products/ud131dark.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-  },
-  {
-    id: 8,
-    name: 'Welding Goggles',
-    href: '#',
-    imageSrc: 'products/welding.jpg',
+    imageSrc: 'products/earmuff2.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
 
   // More products...
 ]
-
-export default function Eyeppe () {
+export default function Hearing () {
   return (
      <div className="bg-teal-800">
      <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-centre">
           <h1 className="text-3xl tracking-tight mb-4 font-medium sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
 
          <p className="mt-2 text-centre text-3xl leading-8  tracking-tight text-yellow-300 sm:text-4xl font-['Mochiy_Pop_P_One']">
-            EYE PROTECTION
+            EAR PPE
           </p>
           </h1>
 

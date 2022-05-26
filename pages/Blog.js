@@ -64,6 +64,7 @@ export default function Blog () {
                 <li>In keeping with best practice, employers across all industries ought to communicate
                      workplace safety rules and procedures to employees in a clear and formal manner, and also train them
                       on how they can meet the stated requirements.</li>
+
                 <li>The development of safety rules and procedures is ineffective if there is no corresponding employee
                      awareness and understanding.</li>
                 <li>Under workplace health and safety acts, it is a legal requirement for employers to inform employees about
@@ -74,7 +75,7 @@ export default function Blog () {
             </section>
               </p>
               <p>
-                <section className="mt-3 max-w-3xl text-lg text-gray-500">
+                <section className="mt-3 max-w-3xl text-lg text-gray-500 lg:mt-0">
               <strong>Enforcement</strong>
               <ul className="list-disc list-inside	">
                 <li>The Department of Labour, through the Directorate of Occupational Safety and Health Services

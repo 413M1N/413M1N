@@ -33,7 +33,7 @@ const solutions = [
   {
     name: "Ear Protection",
     description: "Hearing protectors to prevent noise induced hearing loss",
-    href: "#",
+    href: "./Hearing",
     icon: "ear-protection.png",
   },
   {
@@ -75,7 +75,7 @@ export default function Header() {
 
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
             <a
-              href="#"
+              href="./header"
               className="text-base font-semibold text-gray-700 hover:text-teal-700"
             >
               Home
@@ -158,10 +158,16 @@ export default function Header() {
               )}
             </Popover>
              <a
-              href="./Brandingpage"
+              href="./Branding-stitching"
               className="text-base font-semibold text-gray-700 hover:text-teal-700"
             >
-              Branding & Stitching
+              Branding
+            </a>
+            <a
+              href="./Stitching"
+              className="text-base font-semibold text-gray-700 hover:text-teal-700"
+            >
+              Stitching
             </a>
             <a
               href="./Blog"

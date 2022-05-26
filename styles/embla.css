@@ -94,3 +94,16 @@
 .embla__button--next {
   right: 27px;
 }
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.items-center {
+    align-items: center;
+}
+
+flex {
+    display: flex;
+}

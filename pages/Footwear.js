@@ -21,7 +21,7 @@ const products = [
   {
     id: 1,
     name: 'Ladies Safety Shoe',
-    href: '#',
+    description: '',
     imageSrc: 'products/sporty.jpg',
     imageAlt: '.',
   },
@@ -150,12 +150,13 @@ const products = [
 export default function Footwear () {
   return (
      <div className="bg-teal-800">
-     <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-centre">
+     <div className="mx-auto max-w-7xl w-full pt-9 pb-2 text-center lg:py-48 lg:text-centre">
           <h1 className="text-3xl tracking-tight mb-4 font-medium sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
 
-         <p className="mt-2 text-centre text-3xl leading-8  tracking-tight text-green sm:text-4xl font-['Mochiy_Pop_P_One']">
+         <p className="mt-2 text-centre text-3xl leading-8  tracking-tight text-yellow-300 sm:text-4xl font-['Mochiy_Pop_P_One']">
             FOOTWEAR
           </p>
+
           </h1>
 
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
