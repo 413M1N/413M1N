@@ -13,6 +13,12 @@ const solutions = [
     icon: "medical-mask.png",
   },
   {
+    name: "Head Protection",
+    description: "Protect against falling objects.",
+    href: "",
+    icon: "head.png",
+  },
+  {
     name: "Hand Protection",
     description: "Protect one's hands from any sort of injury at work",
     href: "./Hand",
@@ -39,7 +45,7 @@ const solutions = [
   {
     name: "Accessories",
     description: "General PPE to reduce workplace harzards.",
-    href: "#",
+    href: "./Accessories",
     icon: "accessories.png",
   },
 ];

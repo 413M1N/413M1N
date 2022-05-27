@@ -35,6 +35,12 @@ const features = [
 ];
 
 const solutions = [
+   {
+    name: "Head Protection",
+    description: "Protect against falling objects.",
+    href: "#",
+    icon: "head.png",
+  },
   {
     name: "Respiratory Protection",
     description: "Protect against the inhalation of hazardous substances.",

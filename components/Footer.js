@@ -3,19 +3,19 @@ import Image from "next/image";
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
   solutions: [
-    { name: "Home", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Contact Us", href: "#" },
-    { name: "Fashion House", href: "#" },
+    { name: "Home", href: "127.0.0.1" },
+    { name: "Blog", href: "./Blog" },
+    { name: "Contact Us", href: "./Contact" },
+    { name: "Fashion House", href: "https://www.saraiafrqiue.com" },
   ],
   support: [
-    { name: "Respiratory Protection", href: "#" },
-    { name: "Hand Protection", href: "#" },
-    { name: "Footwear", href: "#" },
-    { name: "Eye Protection", href: "#" },
+    { name: "Respiratory Protection", href: "./Respiratory" },
+    { name: "Hand Protection", href: "./hand" },
+    { name: "Footwear", href: "./footwear" },
+    { name: "Eye Protection", href: "./Eyeppe" },
   ],
   company: [
-    { name: "Ear Protection", href: "#" },
+    { name: "Ear Protection", href: "./Hearing" },
     { name: "Accessories", href: "#" },
     { name: "FAQ", href: "#" },
   ],

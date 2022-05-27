@@ -20,119 +20,99 @@
 const products = [
   {
     id: 1,
-    name: 'Cotton knitted Gloves',
+    name: 'Fire Extinguisher',
     href: '#',
-    imageSrc: 'products/cottonknitted.jpg',
+    imageSrc: 'products/fire.jpg',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
   {
     id: 2,
-    name: 'Cut resistant',
+    name: 'Fire Blanket',
     href: '#',
-    imageSrc: 'products/cutresistant.jpg',
+    imageSrc: 'products/fireblanket.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
   },
   {
     id: 3,
-    name: 'Diamond Grip',
+    name: 'Barricade Tape',
     href: '#',
-    imageSrc: 'products/diamondgripp.jpg',
+    imageSrc: 'products/barricade.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
   {
     id: 4,
-    name: 'Disposable Gloves',
+    name: 'Safety Cone',
     href: '#',
-    imageSrc: 'products/disposablegloves.jpg',
+    imageSrc: 'products/safetycone1.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 5,
-    name: 'Driver Gloves',
+    name: 'First Aid Kit',
     href: '#',
-    imageSrc: 'products/driversgloves.jpg',
+    imageSrc: 'products/firstaidkit.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 6,
-    name: 'Heat Gloves',
+    name: 'Full Body Harness',
     href: '#',
-    imageSrc: 'products/heat.jpg',
+    imageSrc: 'products/fullharness.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 7,
-    name: 'Leather Gloves',
+    name: 'Safety Harness',
     href: '#',
-    imageSrc: 'products/leathergloves.jpg',
+    imageSrc: 'products/harness.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 8,
-    name: 'Nitrile Gloves',
+    name: 'Truncheon',
     href: '#',
-    imageSrc: 'products/nitrilegloves.jpg',
+    imageSrc: 'products/truncheon.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
    {
     id: 9,
-    name: 'PVC Gloves',
+    name: 'Askari Web belt',
     href: '#',
-    imageSrc: 'products/pvcgloves.jpg',
+    imageSrc: 'products/web.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
    {
     id: 10,
-    name: 'Tuff rigger Gloves',
+    name: 'Lanyard & Whistle',
     href: '#',
-    imageSrc: 'products/tuffrigger.jpg',
+    imageSrc: 'products/whistle.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
    {
     id: 11,
-    name: 'Rubber Gloves',
+    name: 'Gas Detector',
     href: '#',
-    imageSrc: 'products/rubbergloves.jpg',
+    imageSrc: 'products/gas.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
    {
     id: 12,
-    name: 'Thermal Gloves',
+    name: 'Heavy duty cable protector',
     href: '#',
-    imageSrc: 'products/thermolgloves.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-  },
-   {
-    id: 12,
-    name: 'Yellow Welding Glove',
-    href: '#',
-    imageSrc: 'products/welding.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-  },
-   {
-    id: 12,
-    name: 'Chemical Gloves',
-    href: '#',
-    imageSrc: 'products/chemicalglove.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-  },
-   {
-    id: 12,
-    name: 'Steal mesh glove',
-    href: '#',
-    imageSrc: 'products/meshglove.jpg',
+    imageSrc: 'products/cableprotector.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   // More products...
 ]
-export default function Hand () {
+
+export default function Accessories () {
   return (
      <div className="bg-teal-800">
      <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-centre">
           <h1 className="text-3xl tracking-tight mb-4 font-medium sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
 
          <p className="mt-2 text-centre text-3xl leading-8  tracking-tight text-yellow-300 sm:text-4xl font-['Mochiy_Pop_P_One']">
-            HANDS PPE
+            ACCESSORIES
           </p>
           </h1>
 
