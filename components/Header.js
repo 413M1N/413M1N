@@ -12,12 +12,7 @@ const solutions = [
     href: "./Respiratory",
     icon: "medical-mask.png",
   },
-  {
-    name: "Head Protection",
-    description: "Protect against falling objects.",
-    href: "",
-    icon: "head.png",
-  },
+
   {
     name: "Hand Protection",
     description: "Protect one's hands from any sort of injury at work",
