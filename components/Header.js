@@ -44,6 +44,21 @@ const solutions = [
     icon: "accessories.png",
   },
 ];
+
+const uniform = [
+{
+    name: "Accessories",
+    description: "General PPE to reduce workplace harzards.",
+    href: "./Accessories",
+    icon: "accessories.png",
+  },
+  {
+    name: "Accessories",
+    description: "General PPE to reduce workplace harzards.",
+    href: "./Accessories",
+    icon: "accessories.png",
+  },
+];
 const callsToAction = [{ name: "Contact Sales", href: "./contact.js", icon: PhoneIcon }];
 
 function classNames(...classes) {
@@ -56,7 +71,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-teal-100 py-5 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="./header.js">
+            <a href="./header.">
               <span className="sr-only">Safe Apparel</span>
               <Image
                 className="h-10 w-auto sm:h-16 rounded-full"
@@ -76,7 +91,7 @@ export default function Header() {
 
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
             <a
-              href="./header"
+              href="127.0.0.1:3000"
               className="text-base font-semibold text-gray-700 hover:text-teal-700"
             >
               Home
@@ -163,7 +178,8 @@ export default function Header() {
               className="text-base font-semibold text-gray-700 hover:text-teal-700"
             >
               Branding
-            </a>
+            </a>.
+
             <a
               href="./Stitching"
               className="text-base font-semibold text-gray-700 hover:text-teal-700"
@@ -215,7 +231,7 @@ export default function Header() {
                     src="/logo.png"
                     alt="Workflow"
                     height="64"
-                    width="64"
+                    width="64"n
                   />
                 </div>
                 <div className="-mr-2">
@@ -227,12 +243,16 @@ export default function Header() {
               </div>
               <div className="mt-6">
                 <nav className="grid gap-y-8">
-                  {solutions.map((item) => (
+                  {solutions.map((item) =>
+
+                   (
                     <a
                       key={item.name}
                       href={item.href}
                       className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                     >
+
+
                       <Image
                         className="flex-shrink-0 h-6 w-6 text-indigo-600"
                         src={`/categories/${item.icon}`}

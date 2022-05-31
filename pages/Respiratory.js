@@ -21,6 +21,7 @@ const products = [
   {
     id: 1,
     name: 'Taiwan Dust Mask',
+    description:'Real protection against,non-toxic coarse dust,Metal nose clip for a perfect fit,',
     href: '#',
     imageSrc: 'products/taiwanmask.jpg',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
@@ -28,6 +29,7 @@ const products = [
   {
     id: 2,
     name: '3M half face mask',
+    description:' Dual airline systems against a variety of gases, vapors, and particulate hazards,Soft, lightweight half-mask respirator with easy-to-adjust heads strapsfor a customized fit',
     href: '#',
     imageSrc: 'products/halfface.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
@@ -36,6 +38,7 @@ const products = [
     id: 3,
     name: '3M 8511',
     href: '#',
+    description:'Adjustable nose clip, Cushioning nose foam,Welded strap attachment.',
     imageSrc: 'products/3m8511.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
@@ -43,6 +46,7 @@ const products = [
     id: 4,
     name: '3M 8210',
     href: '#',
+    description:'',
     imageSrc: 'products/3m8210.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
@@ -50,6 +54,7 @@ const products = [
     id: 5,
     name: 'Disposable Mask',
     href: '#',
+    description:'',
     imageSrc: 'products/disposable.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
@@ -57,6 +62,7 @@ const products = [
     id: 6,
     name: '3M 9211',
     href: '#',
+    description:'',
     imageSrc: 'products/3m9211.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
@@ -64,6 +70,7 @@ const products = [
     id: 7,
     name: 'KN95 with valve',
     href: '#',
+    description:'',
     imageSrc: 'products/kn95valve.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
@@ -71,6 +78,7 @@ const products = [
     id: 8,
     name: '3M 5N11 Filter pads',
     href: '#',
+    description:'',
     imageSrc: 'products/filterpads.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
@@ -78,12 +86,14 @@ const products = [
     id: 9,
     name: '3M Full face mask',
     href: '#',
+    description:'',
     imageSrc: 'products/3mfullface.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
    {
     id: 10,
     name: 'NP 305 Mask',
+    description:'',
     href: '#',
     imageSrc: 'products/NPMASK.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
@@ -91,6 +101,7 @@ const products = [
    {
     id: 11,
     name: 'Mono Mask',
+    description:'',
     href: '#',
     imageSrc: 'products/monomask.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
@@ -98,6 +109,7 @@ const products = [
    {
     id: 12,
     name: 'NP 306 Mask',
+    description:'',
     href: '#',
     imageSrc: 'products/NP306mask.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
@@ -107,11 +119,11 @@ const products = [
 
 export default function respiratory () {
   return (
-     <div className="bg-teal-800">
+     <div className="bg-white-300">
      <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-centre">
           <h1 className="text-3xl tracking-tight mb-4 font-medium sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
 
-         <p className="mt-2 text-centre text-3xl leading-8  tracking-tight text-yellow-300 sm:text-4xl font-['Mochiy_Pop_P_One']">
+         <p className="mt-2 text-centre text-3xl leading-8  tracking-tight text-teal-900 sm:text-4xl font-['Mochiy_Pop_P_One']">
             RESPIRATORY PPE
           </p>
           </h1>
@@ -123,11 +135,11 @@ export default function respiratory () {
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}
-                  className="w-full h-full object-center object-cover group-hover:opacity-75"
+
                 />
               </div>
-              <h3 className="mt-4 text-sm text-white-100 font-['Mochiy_Pop_P_One']">{product.name}</h3>
-              <p className="mt-1 text-lg  text-white-900">{product.price}</p>
+              <h3 className="mt-4 text-sm text-teal-900 font-['Mochiy_Pop_P_One']">{product.name}</h3>
+              <p className="mt-1 text-lg  text-white-900">{product.description}</p>
             </a>
           ))}
         </div>
