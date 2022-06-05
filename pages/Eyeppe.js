@@ -21,13 +21,14 @@ const products = [
   {
     id: 1,
     name: 'Basic Plus goggles',
-    href: '#',
+    description:'Direct ventilation reduces fogging & circulates air,Contains polycarbonated lens offering secure protection against impact hazards',
     imageSrc: 'products/basicplus.jpg',
     imageAlt: '.',
   },
   {
     id: 2,
     name: 'Empiral goggles',
+    description:'Scratch-resistant,polycarbonate lens,',
     href: '#',
     imageSrc: 'products/empiral.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
@@ -35,13 +36,15 @@ const products = [
   {
     id: 3,
     name: 'UD 71 Clear goggles',
+    description:'Anti-scratch coating.Anti-fog',
     href: '#',
     imageSrc: 'products/ud71clear.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
   {
     id: 4,
-    name: 'UD 71 Clear goggle',
+    name: 'UD 71 dark goggle',
+    description:'',
     href: '#',
     imageSrc: 'products/ud71dark.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
@@ -63,6 +66,7 @@ const products = [
   {
     id: 7,
     name: 'UD 131 Dark',
+    description:'Polycarbonate lense,Anti-scratch coating,',
     href: '#',
     imageSrc: 'products/ud131dark.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
@@ -96,11 +100,11 @@ export default function Eyeppe () {
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}
-                  className="w-full h-full object-center object-cover group-hover:opacity-75"
+
                 />
               </div>
               <h3 className="mt-4 text-sm text-white-100 font-['Mochiy_Pop_P_One']">{product.name}</h3>
-              <p className="mt-1 text-lg  text-white-900">{product.price}</p>
+              <p className="mt-1 text-lg  text-white-900">{product.description}</p>
             </a>
           ))}
         </div>

@@ -20,6 +20,12 @@ export default function Landing() {
             implementing best global practices in PPE manufacturing, supplying,
             and training.
           </p>
+ <br></br>
+            <span className=" inline-block text-white text-yellow-600  font-['Mochiy_Pop_P_One' ">
+             CONTACT:  0796 081 493 / 0718 375 804 <br></br>LOCATION:  Mpl place kirichwa road
+            </span>
+
+
           {/* <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
             <div className="rounded-md shadow">
               <a
