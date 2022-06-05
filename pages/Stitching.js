@@ -29,117 +29,12 @@ export default function Stitching(){
             ))}
           </dl>
         </div>
-        <div className="grid grid-cols-4 grid-rows-3 gap-1 sm:gap-4 lg:gap-10">
+        <div className="m-10 grid grid-cols-3 grid-rows-3 gap-1 sm:gap-4 lg:gap-20\\\">
            <Image
-                src="/stitching/vest.png"
+                src="/stitching/shirts1.png"
                 alt="People working on laptops"
-                height="200%"
-               width="300%"
-
-              />
-          <Image
-                src="/stitching/Chef.png"
-                alt="People working on laptops"
-                height="150%"
-               width="200%"
-
-              />
-         <Image
-                src="/stitching/askari1.png"
-                alt="People working on laptops"
-                height="500%"
-               width="700"
-
-              />
-               <Image
-                src="/stitching/Spray.png"
-                alt="People working on laptops"
-                height="1000%"
-               width="1000%"
-
-              />
-          <Image
-                src="/stitching/dust.png"
-                alt="People working on laptops"
-                height="850%"
-               width="1000%"
-
-              />
-              <Image
-                src="/stitching/gown.png"
-                alt="People working on laptops"
-                height="1080%"
-               width="1080%"
-
-              />
-              <Image
-                src="/stitching/driver.png"
-                alt="People working on laptops"
-                height="850%"
-               width="1000%"
-
-              />
-              <Image
-                src="/stitching/raincoat.png"
-                alt="People working on laptops"
-                height="850%"
-               width="1000%"
-
-              />
-              <Image
-                src="/stitching/jacket.png"
-                alt="People working on laptops"
-                height="720px"
-               width="1080%"
-
-              />
-              <Image
-                src="/stitching/House.png"
-                alt="People working on laptops"
-                height="720px"
-               width="1080px"
-
-              />
-              <Image
-                src="/stitching/Shirt1.png"
-                alt="People working on laptops"
-                height="850%"
-               width="1000%"
-
-              />
-               <Image
-                src="/stitching/Overall.png"
-                alt="People working on laptops"
-                height="2140%"
-               width="2140%"
-
-              />
-               <Image
-                src="/stitching/tunic.png"
-                alt="People working on laptops"
-                height="850%"
-               width="1000%"
-
-              />
-            <Image
-                src="/stitching/eskimo1.png"
-                alt="People working on laptops"
-                height="2000%"
-               width="2000%"
-
-              />
-            <Image
-                src="/stitching/apron.png"
-                alt="People working on laptops"
-                height="720px"
-               width="1080%"
-
-              />
-               <Image
-                src="/stitching/cargo.png"
-                alt="People working on laptops"
-                height="500%"
-               width="500%"
+                height="1000"
+               width="1000"
 
               />
         </div>
