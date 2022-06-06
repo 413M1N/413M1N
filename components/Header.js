@@ -12,19 +12,22 @@ const solutions = [
     href: "./Respiratory",
     icon: "medical-mask.png",
   },
-
+/*
   {
     name: "Hand Protection",
     description: "Protect one's hands from any sort of injury at work",
     href: "./Hand",
     icon: "gloves.png",
   },
+  */
+ /*
   {
     name: "Footwear",
     description: "PPE for feet to reduce the risk of workplace hazards.",
     href: "./Footwear",
     icon: "boots.png",
   },
+  */
   {
     name: "Eye Protection",
     description: "Face and eye protection to reduce the risk of injuries.",
@@ -37,17 +40,19 @@ const solutions = [
     href: "./Hearing",
     icon: "ear-protection.png",
   },
+  /*
   {
     name: "Accessories",
     description: "General PPE to reduce workplace harzards.",
     href: "./Accessories",
     icon: "accessories.png",
   },
+  */
 ];
 
-const uniform = [
+const footwear = [
 {
-    name: "Accessories",
+    name: "Ladies",
     description: "General PPE to reduce workplace harzards.",
     href: "./Accessories",
     icon: "accessories.png",
@@ -72,7 +77,7 @@ export default function Header() {
         <div className="flex justify-between items-center border-b-2 border-teal-100 py-5 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="./header.">
-              <span className="sr-only">Safe Apparel</span>
+              <span className="sr-only">Safes Apparel</span>
               <Image
                 className="h-10 w-auto sm:h-16 rounded-full"
                 src="/logo.png"
@@ -105,7 +110,7 @@ export default function Header() {
                       "group bg-teal-50 rounded-md inline-flex items-center text-base font-semibold hover:text-teal-700"
                     )}
                   >
-                    <span>Products</span>
+                    <span>Head Protection</span>
                     <ChevronDownIcon
                       className={classNames(
                         open ? "text-gray-600" : "text-gray-400",
@@ -173,31 +178,43 @@ export default function Header() {
                 </>
               )}
             </Popover>
-             <a
-              href="./Branding-stitching"
-              className="text-base font-semibold text-gray-700 hover:text-teal-700"
-            >
-              Branding
-            </a>.
 
             <a
               href="./Stitching"
               className="text-base font-semibold text-gray-700 hover:text-teal-700"
             >
-              Stitching
+              Uniforms
+            </a>
+             <a
+              href="./Hand"
+              className="text-base font-semibold text-gray-700 hover:text-teal-700"
+            >
+              Hand Protection
+            </a>
+             <a
+              href="./Footwear"
+              className="text-base font-semibold text-gray-700 hover:text-teal-700"
+            >
+              Footwear
+            </a>
+
+          <a
+              href="./Accessories"
+              className="text-base font-semibold text-gray-700 hover:text-teal-700"
+            >
+              Accessories
+            </a>
+             <a
+              href="./Branding-stitching"
+              className="text-base font-semibold text-gray-700 hover:text-teal-700"
+            >
+              Branding
             </a>
             <a
               href="./Blog"
               className="text-base font-semibold text-gray-700 hover:text-teal-700"
             >
               Blog
-            </a>
-
-            <a
-              href="./Contact"
-              className="text-base font-semibold text-gray-700 hover:text-teal-700"
-            >
-              Contact Us
             </a>
             <a
               href="https://www.saraiafrique.com"

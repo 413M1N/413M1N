@@ -14,7 +14,7 @@ const navigation = {
     { name: "Footwear", href: "./footwear" },
     { name: "Eye Protection", href: "./Eyeppe" },
   ],
-  company: [
+  PPE: [
     { name: "Ear Protection", href: "./Hearing" },
     { name: "Accessories", href: "#" },
     { name: "FAQ", href: "./FAQ" },
@@ -129,7 +129,7 @@ export default function Footer() {
                   Services
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
-                  {navigation.company.map((item) => (
+                  {navigation.PPE.map((item) => (
                     <li key={item.name}>
                       <a
                         href={item.href}

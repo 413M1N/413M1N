@@ -44,7 +44,7 @@ const products = [
   {
     id: 4,
     name: 'UD 71 dark goggle',
-    description:'',
+    description:'Anti-scratch coating,dark lens,Anti-fog ',
     href: '#',
     imageSrc: 'products/ud71dark.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
@@ -52,6 +52,7 @@ const products = [
   {
     id: 5,
     name: 'UD 71 Yellow',
+    description:'Anti-scratch coating,polycarbonated lens,Anti-fog ',
     href: '#',
     imageSrc: 'products/ud71yellow.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
@@ -59,6 +60,7 @@ const products = [
   {
     id: 6,
     name: 'UD 131 Clear',
+    description:'Anti-scratch coating,clearlens,Anti-fog ',
     href: '#',
     imageSrc: 'products/ud131clear.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
@@ -74,8 +76,17 @@ const products = [
   {
     id: 8,
     name: 'Welding Goggles',
+    description:'Flipup lens holder with 1.00mm polycarbonated cover lens,Indirect ventilated soft pvc frame with elastic strap,Anti-sratch',
     href: '#',
-    imageSrc: 'products/welding.jpg',
+    imageSrc: 'products/weldinggoggles.jpg',
+    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+  },
+  {
+    id: 8,
+    name: 'Welding Shield',
+    description:'Lightweight Welding Faceshield,Wrap around head shield provides good face and front neck protection,Flip-up lens for improved vision,Green infrared lens certified to DIN 11, EN169',
+    href: '#',
+    imageSrc: 'products/weldingshield.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
 
