@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, PhoneIcon, XIcon } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
+import Link from "next/link";
 
 const solutions = [
   {
@@ -12,7 +13,7 @@ const solutions = [
     href: "./Respiratory",
     icon: "medical-mask.png",
   },
-/*
+  /*
   {
     name: "Hand Protection",
     description: "Protect one's hands from any sort of injury at work",
@@ -20,7 +21,7 @@ const solutions = [
     icon: "gloves.png",
   },
   */
- /*
+  /*
   {
     name: "Footwear",
     description: "PPE for feet to reduce the risk of workplace hazards.",
@@ -29,7 +30,7 @@ const solutions = [
   },
   */
   {
-    name: "Eye Protection",
+    name: "Head/Eye Protection",
     description: "Face and eye protection to reduce the risk of injuries.",
     href: "./Eyeppe",
     icon: "eyewear.png",
@@ -51,20 +52,22 @@ const solutions = [
 ];
 
 const footwear = [
-{
+  {
     name: "Ladies",
     description: "General PPE to reduce workplace harzards.",
-    href: "./Accessories",
+    href: "/Footwear",
     icon: "accessories.png",
   },
   {
     name: "Accessories",
     description: "General PPE to reduce workplace harzards.",
-    href: "./Accessories",
+    href: "/Footwear",
     icon: "accessories.png",
   },
 ];
-const callsToAction = [{ name: "Contact Sales", href: "./contact.js", icon: PhoneIcon }];
+const callsToAction = [
+  { name: "Contact Sales", href: "/contact", icon: PhoneIcon },
+];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -76,8 +79,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-teal-100 py-5 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="./header.">
-              <span className="sr-only">Safes Apparel</span>
+            <Link href="/" passHref>
               <Image
                 className="h-10 w-auto sm:h-16 rounded-full"
                 src="/logo.png"
@@ -85,7 +87,7 @@ export default function Header() {
                 height="64"
                 width="64"
               />
-            </a>
+            </Link>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
             <Popover.Button className="bg-teal-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-teal-100 focus:outline-none ">
@@ -95,12 +97,17 @@ export default function Header() {
           </div>
 
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
-            <a
-              href="127.0.0.1:3000"
-              className="text-base font-semibold text-gray-700 hover:text-teal-700"
-            >
-              Home
+            <Link href="/">
+              <a className="text-base font-semibold text-gray-700 hover:text-teal-700">
+                Home
+              </a>
+            </Link>
+       <Link href="/uniforms">
+            <a className="text-base font-semibold text-gray-700 hover:text-teal-700" >
+
+              Uniforms
             </a>
+            </Link>
             <Popover className="relative">
               {({ open }) => (
                 <>
@@ -133,29 +140,28 @@ export default function Header() {
                       <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                           {solutions.map((item) => (
-                            <a
-                              key={item.name}
-                              href={item.href}
-                              className="-m-3 p-3 flex items-start rounded-lg hover:bg-teal-100"
-                            >
-                              <Image
-                                className="flex-shrink-0 h-6 w-"
-                                src={`/categories/${item.icon}`}
-                                alt={item.description}
-                                height={32}
-                                width={32}
-                              />
-                              <div className="ml-4">
-                                <p className="text-base font-medium text-gray-900">
-                                  {item.name}
-                                </p>
-                                <p className="mt-1 text-sm text-gray-500">
-                                  {item.description}
-                                </p>
-                              </div>
-                            </a>
+                            <Link key={item.name} href={item.href}>
+                              <a className="-m-3 p-3 flex items-start rounded-lg hover:bg-teal-100">
+                                <Image
+                                  className="flex-shrink-0 h-6 w-"
+                                  src={`/categories/${item.icon}`}
+                                  alt={item.description}
+                                  height={32}
+                                  width={32}
+                                />
+                                <div className="ml-4">
+                                  <p className="text-base font-medium text-gray-900">
+                                    {item.name}
+                                  </p>
+                                  <p className="mt-1 text-sm text-gray-500">
+                                    {item.description}
+                                  </p>
+                                </div>
+                              </a>
+                            </Link>
                           ))}
                         </div>
+
                         <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                           {callsToAction.map((item) => (
                             <div key={item.name} className="flow-root">
@@ -178,46 +184,91 @@ export default function Header() {
                 </>
               )}
             </Popover>
-
-            <a
-              href="./Stitching"
-              className="text-base font-semibold text-gray-700 hover:text-teal-700"
-            >
-              Uniforms
-            </a>
-             <a
-              href="./Hand"
-              className="text-base font-semibold text-gray-700 hover:text-teal-700"
-            >
+            <Link href="/Hand">
+            <a className="text-base font-semibold text-gray-700 hover:text-teal-700">
               Hand Protection
             </a>
-             <a
-              href="./Footwear"
-              className="text-base font-semibold text-gray-700 hover:text-teal-700"
-            >
-              Footwear
-            </a>
+            </Link>
+            <Popover className="relative">
+              {({ open }) => (
+                <>
+                  <Popover.Button
+                    className={classNames(
+                      open ? "text-gray-900" : "text-gray-700",
+                      "group bg-teal-50 rounded-md inline-flex items-center text-base font-semibold hover:text-teal-700"
+                    )}
+                  >
+                    <span>Footwear</span>
+                    <ChevronDownIcon
+                      className={classNames(
+                        open ? "text-gray-600" : "text-gray-400",
+                        "ml-2 h-5 w-5 group-hover:text-teal-700"
+                      )}
+                      aria-hidden="true"
+                    />
+                  </Popover.Button>
 
-          <a
-              href="./Accessories"
-              className="text-base font-semibold text-gray-700 hover:text-teal-700"
-            >
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-200"
+                    enterFrom="opacity-0 translate-y-1"
+                    enterTo="opacity-100 translate-y-0"
+                    leave="transition ease-in duration-150"
+                    leaveFrom="opacity-100 translate-y-0"
+                    leaveTo="opacity-0 translate-y-1"
+                  >
+                    <Popover.Panel className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
+                      <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                        <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                          {footwear.map((item) => (
+                            <Link key={item.name} href={item.href}>
+                              <a className="-m-3 p-3 flex items-start rounded-lg hover:bg-teal-100">
+                                <Image
+                                  className="flex-shrink-0 h-6 w-"
+                                  src={`/categories/${item.icon}`}
+                                  alt={item.description}
+                                  height={32}
+                                  width={32}
+                                />
+                                <div className="ml-4">
+                                  <p className="text-base font-medium text-gray-900">
+                                    {item.name}
+                                  </p>
+                                  <p className="mt-1 text-sm text-gray-500">
+                                    {item.description}
+                                  </p>
+                                </div>
+                              </a>
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    </Popover.Panel>
+                  </Transition>
+                </>
+              )}
+            </Popover>
+            <Link href="/Accessories">
+            <a className="text-base font-semibold text-gray-700 hover:text-teal-700">
               Accessories
             </a>
-             <a
-              href="./Branding-stitching"
-              className="text-base font-semibold text-gray-700 hover:text-teal-700"
-            >
-              Branding
+            </Link>
+
+            <Link href="/Branding-stitching">
+            <a className="text-base font-semibold text-gray-700 hover:text-teal-700">
+             Branding
             </a>
-            <a
-              href="./Blog"
-              className="text-base font-semibold text-gray-700 hover:text-teal-700"
-            >
-              Blog
+            </Link>
+
+            <Link href="/Blog">
+            <a className="text-base font-semibold text-gray-700 hover:text-teal-700">
+             Blog
             </a>
+          </Link>
             <a
               href="https://www.saraiafrique.com"
+              target="_blank"
+              rel="noreferrer"
               className="text-base font-semibold text-gray-700 hover:text-teal-700"
             >
               Fashion House
@@ -248,7 +299,8 @@ export default function Header() {
                     src="/logo.png"
                     alt="Workflow"
                     height="64"
-                    width="64"n
+                    width="64"
+                    n
                   />
                 </div>
                 <div className="-mr-2">
@@ -260,16 +312,12 @@ export default function Header() {
               </div>
               <div className="mt-6">
                 <nav className="grid gap-y-8">
-                  {solutions.map((item) =>
-
-                   (
+                  {solutions.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
                       className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                     >
-
-
                       <Image
                         className="flex-shrink-0 h-6 w-6 text-indigo-600"
                         src={`/categories/${item.icon}`}
@@ -312,11 +360,10 @@ export default function Header() {
                 >
                   Fashion House
                   <a
-                  href="https://www.saraiafrique.com"
-                  className="text-base font-medium text-gray-900 hover:text-gray-700"
-                ></a>
+                    href="https://www.saraiafrique.com"
+                    className="text-base font-medium text-gray-900 hover:text-gray-700"
+                  ></a>
                 </a>
-
               </div>
             </div>
           </div>

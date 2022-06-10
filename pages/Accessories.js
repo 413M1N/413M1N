@@ -20,96 +20,103 @@
 const products = [
   {
     id: 1,
-    name: 'Fire Extinguisher',
-    href: '#',
-    description:'Fire extinguisher with water and foam ',
-    imageSrc: 'products/fire.jpg',
-    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+    name: "Fire Extinguisher",
+    description: "Fire extinguisher with water and foam ",
+    imageSrc: "products/fire.jpg",
+    imageAlt: "Fire extinguishe with water and foam",
   },
   {
     id: 2,
-    name: 'Fire Blanket',
-    href: '#',
-    imageSrc: 'products/fireblanket.jpg',
-    imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+    name: "Fire Blanket",
+    description:
+      "Easy to pull down tags to release blanket,fire-resistant,Suitable for small cooking oil fires and clothing fires",
+    imageSrc: "products/fireblanket.jpg",
+    imageAlt:
+      "releaseEasy to pull down tags to  blanket,fire-resistant,Suitable for small cooking oil fires and clothing fires",
   },
   {
     id: 3,
-    name: 'Barricade Tape',
-    href: '#',
-    imageSrc: 'products/barricade.jpg',
-    imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+    name: "Barricade Tape",
+    description: "Caution tape,barrier tape,construction tape",
+    imageSrc: "products/barri.jpg",
+    imageSrc: "Caution tape,barrier tape,construction tape",
   },
   {
     id: 4,
-    name: 'Safety Cone',
-    href: '#',
-    imageSrc: 'products/safetycone1.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "Safety Cone",
+    description: "Pvc traffic cone 70cm height",
+    imageSrc: "products/safetycone1.jpg",
+    imageAlt: "Pvc traffic cone 70cm height.",
   },
   {
     id: 5,
-    name: 'First Aid Kit',
-    href: '#',
-    imageSrc: 'products/firstaidkit.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "First Aid Kit",
+    description:
+      "Occupational first kit,Lockable metal box contains 238 medical items that can serve up to 50 people",
+    imageSrc: "products/firstaidkit.jpg",
+    imageAlt:
+      "Occupational first kit,Lockable metal box contains 238 medical items that can serve up to 50 people",
   },
   {
     id: 6,
-    name: 'Full Body Harness',
-    href: '#',
-    imageSrc: 'products/fullharness.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "Full Body Harness",
+    description:'Smart anti-tangle for hassle-free donning experience,New patented shoulder/back padding design minimizes overhead muscular fatigue,light-than-ever harness,formulated webbing flexes to accommodate movement',
+    imageSrc: "products/fullharness.jpg",
+    imageAlt:"Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
   {
     id: 7,
-    name: 'Safety Harness',
-    href: '#',
-    imageSrc: 'products/harness.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "Safety Harness",
+    description:'Single hook,adjustable harness,safety harness belt system helps protect user from falling',
+    imageSrc: "products/harness.jpg",
+    imageAlt:"Single hook,adjustable harness,safety harness belt system helps protect user from falling.",
   },
   {
     id: 8,
-    name: 'Truncheon',
-    href: '#',
-    imageSrc: 'products/truncheon.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "Truncheon",
+    description:'Hight quality fiber material',
+    imageSrc: "products/truncheon.jpg",
+    imageAlt: "Hight quality fiber material.",
   },
-   {
+  {
     id: 9,
-    name: 'Askari Web belt',
-    href: '#',
-    imageSrc: 'products/web.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "Askari Web belt",
+    href: "#",
+    imageSrc: "products/web.jpg",
+    imageAlt:
+      "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
-   {
+  {
     id: 10,
-    name: 'Lanyard & Whistle',
-    href: '#',
-    imageSrc: 'products/whistle.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "Lanyard & Whistle",
+    href: "#",
+    imageSrc: "products/whistle.jpg",
+    imageAlt:
+      "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
-   {
+  {
     id: 11,
-    name: 'Gas Detector',
-    href: '#',
-    imageSrc: 'products/gas.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "Gas Detector",
+    href: "#",
+    imageSrc: "products/gas.jpg",
+    imageAlt:
+      "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
-   {
+  {
     id: 12,
-    name: 'Heavy duty cable protector',
-    href: '#',
-    imageSrc: 'products/cableprotector.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "Heavy duty cable protector",
+    href: "#",
+    imageSrc: "products/cableprotector.jpg",
+    imageAlt:
+      "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
   // More products...
-]
+];
 
 export default function Accessories () {
   return (
      <div className="bg-white-300">
-     <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-centre">
+     <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:text-centre">
           <h1 className="text-3xl tracking-tight mb-4 font-medium sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
 
          <p className="mt-2 text-centre text-3xl leading-8  tracking-tight text-teal-900 sm:text-4xl font-['Mochiy_Pop_P_One']">
@@ -128,7 +135,7 @@ export default function Accessories () {
                 />
               </div>
               <h3 className="mt-4 text-sm text-teal-900 font-['Mochiy_Pop_P_One']">{product.name}</h3>
-              <p className="mt-1 text-lg  text-white-300">{product.description}</p>
+              <p className="mt-1 text-sm  text-white-300">{product.description}</p>
             </a>
           ))}
         </div>

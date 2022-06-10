@@ -20,87 +20,127 @@
 const products = [
   {
     id: 1,
-    name: 'Basic Plus goggles',
-    description:'Direct ventilation reduces fogging & circulates air,Contains polycarbonated lens offering secure protection against impact hazards',
-    imageSrc: 'products/basicplus.jpg',
-    imageAlt: '.',
+    name: "Helmet with ventilation",
+    description:
+      "High-density polyethylene, unique crown ventilation system with plastic cradle,Sweat band-brushed cloth on foam,Touch and lightweight,Customized logo options",
+    imageSrc: "products/Helmetbreathe.jpg",
+    imageAlt: "safety helmet with ventillation",
   },
   {
     id: 2,
-    name: 'Empiral goggles',
-    description:'Scratch-resistant,polycarbonate lens,',
-    href: '#',
-    imageSrc: 'products/empiral.jpg',
-    imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+    name: "Helmets without ventilation",
+    description:
+      "6 point pin lock text line suspension with foam sweatband,Short brim for the broader field view,Comfortable,tough and lightweight,colors:Blue,yellow and white",
+    imageSrc: "products/Helmet.jpg",
+    imageAlt: "Safety helmets without ventillation",
   },
   {
     id: 3,
-    name: 'UD 71 Clear goggles',
-    description:'Anti-scratch coating.Anti-fog',
-    href: '#',
-    imageSrc: 'products/ud71clear.jpg',
-    imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+    name: "Face shield",
+    description:
+      "Ratchet headgear,face protection against liquid splashes and flying objects,a lightweight visor gives high impact resistance",
+    imageSrc: "products/faceshield.jpg",
+    imageAlt: "Safety face shield",
   },
   {
     id: 4,
-    name: 'UD 71 dark goggle',
-    description:'Anti-scratch coating,dark lens,Anti-fog ',
-    href: '#',
-    imageSrc: 'products/ud71dark.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "Hairnets",
+    description:
+      "Non-wooven medical grade",
+    imageSrc: "products/hair.jpg",
+    imageAlt: "Hairnets non wooven",
   },
   {
     id: 5,
-    name: 'UD 71 Yellow',
-    description:'Anti-scratch coating,polycarbonated lens,Anti-fog ',
-    href: '#',
-    imageSrc: 'products/ud71yellow.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "Bump cap",
+    description:
+      "Direct ventilation reduces fogging & circulates air,Contains polycarbonated lens offering secure protection against impact hazards",
+    imageSrc: "products/bumpcap.jpg",
+    imageAlt: "Safety bump caps",
   },
   {
     id: 6,
-    name: 'UD 131 Clear',
-    description:'Anti-scratch coating,clearlens,Anti-fog ',
-    href: '#',
-    imageSrc: 'products/ud131clear.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "Chin strap",
+    description: "Helmet not included, colors blue and white",
+    imageSrc: "products/chinstrap.jpg",
+    imageAlt: "Helmets chin strap",
   },
   {
     id: 7,
-    name: 'UD 131 Dark',
-    description:'Polycarbonate lense,Anti-scratch coating,',
-    href: '#',
-    imageSrc: 'products/ud131dark.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "Empiral goggles",
+    description: "Scratch-resistant,polycarbonate lens,",
+    imageSrc: "products/empiral.jpg",
+    imageAlt:"Safety googles,empiral goggles",
   },
   {
     id: 8,
-    name: 'Welding Goggles',
-    description:'Flipup lens holder with 1.00mm polycarbonated cover lens,Indirect ventilated soft pvc frame with elastic strap,Anti-sratch',
-    href: '#',
-    imageSrc: 'products/weldinggoggles.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: "UD 71 Clear goggles",
+    description: "Anti-scratch coating.Anti-fog",
+    imageSrc: "products/ud71clear.jpg",
+    imageAlt: "Safety clear goggles .",
   },
   {
-    id: 8,
-    name: 'Welding Shield',
-    description:'Lightweight Welding Faceshield,Wrap around head shield provides good face and front neck protection,Flip-up lens for improved vision,Green infrared lens certified to DIN 11, EN169',
-    href: '#',
-    imageSrc: 'products/weldingshield.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    id: 9,
+    name: "UD 71 dark goggle",
+    description: "Anti-scratch coating,dark lens,Anti-fog ",
+    imageSrc: "products/ud71dark.jpg",
+    imageAlt:
+      "Safety dark goggles.",
+  },
+  {
+    id: 10,
+    name: "UD 71 Yellow",
+    description: "Anti-scratch coating,polycarbonated lens,Anti-fog ",
+    imageSrc: "products/ud71yellow.jpg",
+    imageAlt:
+      "Safety yellow goggles.",
+  },
+  {
+    id: 11,
+    name: "UD 131 Clear",
+    description: "Anti-scratch coating,clearlens,Anti-fog ",
+    imageSrc: "products/ud131clear.jpg",
+    imageAlt:
+      "Safety clear goggles vaultex.",
+  },
+  {
+    id: 12,
+    name: "UD 131 Dark",
+    description: "Polycarbonate lense,Anti-scratch coating,",
+    imageSrc: "products/ud131dark.jpg",
+    imageAlt:
+      "Safety dark goggles.",
+  },
+  {
+    id: 13,
+    name: "Welding Goggles",
+    description:
+      "Flipup lens holder with 1.00mm polycarbonated cover lens,Indirect ventilated soft pvc frame with elastic strap,Anti-sratch",
+    imageSrc: "products/weldinggoggles.jpg",
+    imageAlt:
+      "safety welding goggles with flip flap.",
+  },
+  {
+    id: 14,
+    name: "Welding Shield",
+    description:
+      "Lightweight Welding Faceshield,Wrap around head shield provides good face and front neck protection,Flip-up lens for improved vision,Green infrared lens certified to DIN 11, EN169",
+    imageSrc: "products/weldingshield.jpg",
+    imageAlt:
+      "Safety welding shield.",
   },
 
   // More products...
-]
+];
 
 export default function Eyeppe () {
   return (
      <div className="bg-white-300">
-     <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-centre">
+     <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:text-centre">
           <h1 className="text-3xl tracking-tight mb-4 font-medium sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
 
          <p className="mt-2 text-centre text-3xl leading-8  tracking-tight text-teal-900 sm:text-4xl font-['Mochiy_Pop_P_One']">
-            EYE PROTECTION
+           HEAD/EYE PROTECTION
           </p>
           </h1>
 
@@ -115,7 +155,7 @@ export default function Eyeppe () {
                 />
               </div>
               <h3 className="mt-4 text-sm text-white-100 font-['Mochiy_Pop_P_One']">{product.name}</h3>
-              <p className="mt-1 text-lg  text-white-900">{product.description}</p>
+              <p className="mt-1 text-sm  text-white-900">{product.description}</p>
             </a>
           ))}
         </div>

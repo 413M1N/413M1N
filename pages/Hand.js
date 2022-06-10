@@ -110,7 +110,7 @@ const products = [
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },*/
    {
-    id: 12,
+    id: 11,
     name: 'Nitrile Foam Gloves',
     description:'Cut resistance level 5,Good grip in wet and dry conditions,Nitrile coated,Used in Mining,construction, metal & glass handling, oil & gas industry',
     href: '#',
@@ -126,14 +126,14 @@ const products = [
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
    {
-    id: 12,
+    id: 13,
     name: 'Chemical Gloves',
-    href: '#',
+    description:'Rubber gloves,oil resistant,Good abrasion and puncture resistance.',
     imageSrc: 'products/chemicalglove.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
    {
-    id: 12,
+    id: 14,
     name: 'Steal mesh glove',
     description:'Textile strap,Elastic grip,Elastic grip,Extreme cut & puncture resistant,improve comfort and fit',
     href: '#',
@@ -145,7 +145,7 @@ const products = [
 export default function Hand () {
   return (
      <div className="bg-white-300">
-     <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-centre">
+     <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:text-centre">
           <h1 className="text-3xl tracking-tight mb-4 font-medium sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
 
          <p className="mt-2 text-centre text-3xl leading-8  tracking-tight text-teal-900 sm:text-4xl font-['Mochiy_Pop_P_One']">
@@ -164,7 +164,7 @@ export default function Hand () {
                 />
               </div>
               <h3 className="mt-4 text-sm text-teal-900 font-['Mochiy_Pop_P_One']">{product.name}</h3>
-              <p className="mt-1 text-lg  text-white-900">{product.description}</p>
+              <p className="mt-1 text-sm  text-white-900">{product.description}</p>
             </a>
           ))}
         </div>

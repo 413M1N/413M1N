@@ -39,10 +39,11 @@ export default function Stitching(){
             ))}
           </dl>
         </div>
-        <div className="m-10 grid grid-cols-3 grid-rows-3 gap-1 sm:gap-4 lg:gap-20\\\">
+        <div className="image-container">
           <Image
             src="/stitching/shirts1.png"
             alt="People working on laptops"
+            className={"image"}
             height="1000"
             width="1000"
           />
