@@ -53,16 +53,16 @@ const solutions = [
 
 const footwear = [
   {
-    name: "Ladies",
-    description: "General PPE to reduce workplace harzards.",
-    href: "/Footwear",
-    icon: "accessories.png",
+    name: "Ladies Safety Shoes",
+    description: "PPE for feet to reduce the risk of workplace hazards.",
+    href: "/footwear/ladies",
+    icon: "boots.png",
   },
   {
-    name: "Accessories",
-    description: "General PPE to reduce workplace harzards.",
-    href: "/Footwear",
-    icon: "accessories.png",
+    name: "Men Safety shoes",
+    description: "PPE for feet to reduce the risk of workplace hazards.",
+    href: "/footwear",
+    icon: "boots.png",
   },
 ];
 const callsToAction = [
