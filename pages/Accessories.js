@@ -38,8 +38,8 @@ const products = [
     id: 3,
     name: "Barricade Tape",
     description: "Caution tape,barrier tape,construction tape",
-    imageSrc: "products/barri.jpg",
-    imageSrc: "Caution tape,barrier tape,construction tape",
+    imageSrc: "products/Barricade.jpg",
+    imageAlt: "Caution tape,barrier tape,construction tape",
   },
   {
     id: 4,

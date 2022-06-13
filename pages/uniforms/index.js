@@ -1,7 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 const features = [
-  { name: 'CLEANERS UNIFORM', description: '', href: '/uniforms/cleaning' },
-  { name: 'HOUSEKEEPING UNIFORMS', description: '', href: '/uniforms/cleaning' },
+  { name: 'CLEANERS AND HOUSEKEEPING UNIFORMS ', description: '', href: '/uniforms/cleaning' },
   { name: 'DRIVERS UNIFORM', description: '', href: '/uniforms/cleaning' },
   { name: 'HOSPITAL UNIFORMS', description: '', href: '/uniforms/cleaning' },
 { name: 'WORKERS UNIFORMS', description: '', href: '/uniforms/cleaning' },
